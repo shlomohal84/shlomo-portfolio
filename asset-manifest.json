@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/shlomo-portfolio/static/css/main.b3d7bf30.css",
+    "main.js": "/shlomo-portfolio/static/js/main.54f4aa1a.js",
+    "static/js/787.c09330cf.chunk.js": "/shlomo-portfolio/static/js/787.c09330cf.chunk.js",
+    "static/media/yelpCampThumb.jpg": "/shlomo-portfolio/static/media/yelpCampThumb.ebc28cd3361c632fbd1f.jpg",
+    "static/media/ghLogo.svg": "/shlomo-portfolio/static/media/ghLogo.04be58c17b3d5e9744424d414240dd85.svg",
+    "index.html": "/shlomo-portfolio/index.html",
+    "main.54f4aa1a.js.map": "/shlomo-portfolio/static/js/main.54f4aa1a.js.map",
+    "787.c09330cf.chunk.js.map": "/shlomo-portfolio/static/js/787.c09330cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3d7bf30.css",
+    "static/js/main.54f4aa1a.js"
+  ]
+}
