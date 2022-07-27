@@ -11,7 +11,7 @@ function App() {
     <>
       <CssBaseline />
       <Navbar />
-      <main>
+      <main style={{ backgroundColor: "#00000035" }}>
         <Homepage data={data} />
       </main>
       <Footer />

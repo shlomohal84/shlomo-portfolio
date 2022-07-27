@@ -45,12 +45,12 @@ export default function ItemCard({
   };
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345, /*  height: "430px", */ my: 2 }}>
       <CardHeader title={title} />
       <a href={siteUrl} target="__blank">
         <CardMedia component="img" height="194" image={img} alt="Paella dish" />
       </a>
-      <CardContent>
+      <CardContent sx={{ maxHeight: "90px" }}>
         <Typography variant="body2" color="text.secondary">
           {description}
         </Typography>
@@ -86,11 +86,17 @@ export default function ItemCard({
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography variant="h6">Tools used in the project:</Typography>
-          <Typography>Frontend: {tools.frontend}</Typography>
-          <Typography>Backend: {tools.backend}</Typography>
-          <Typography>Database: {tools.db}</Typography>
-          <Typography>Styling: {tools.styling}</Typography>
+          <Typography variant="h6">Tools used on this project:</Typography>
+          <Typography>
+            {tools.frontend && `Frontend: ${tools.frontend}`}
+          </Typography>
+          <Typography>
+            {tools.backend && `Backend: ${tools.backend}`}
+          </Typography>
+          <Typography>{tools.db && `Database: ${tools.db}`}</Typography>
+          <Typography>
+            {tools.styling && `Styling: ${tools.styling}`}
+          </Typography>
         </CardContent>
       </Collapse>
     </Card>
