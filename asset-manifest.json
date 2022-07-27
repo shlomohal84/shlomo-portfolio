@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/shlomo-portfolio/static/css/main.b3d7bf30.css",
-    "main.js": "/shlomo-portfolio/static/js/main.54f4aa1a.js",
+    "main.js": "/shlomo-portfolio/static/js/main.eeab18c8.js",
     "static/js/787.c09330cf.chunk.js": "/shlomo-portfolio/static/js/787.c09330cf.chunk.js",
+    "static/media/react_color_picker_thumb.jpg": "/shlomo-portfolio/static/media/react_color_picker_thumb.20fc9e0437b3ea3b87a7.jpg",
     "static/media/yelpCampThumb.jpg": "/shlomo-portfolio/static/media/yelpCampThumb.ebc28cd3361c632fbd1f.jpg",
+    "static/media/sudoku_thumb.jpg": "/shlomo-portfolio/static/media/sudoku_thumb.1e9a1db575daf5dd5438.jpg",
     "static/media/ghLogo.svg": "/shlomo-portfolio/static/media/ghLogo.04be58c17b3d5e9744424d414240dd85.svg",
     "index.html": "/shlomo-portfolio/index.html",
-    "main.54f4aa1a.js.map": "/shlomo-portfolio/static/js/main.54f4aa1a.js.map",
+    "main.eeab18c8.js.map": "/shlomo-portfolio/static/js/main.eeab18c8.js.map",
     "787.c09330cf.chunk.js.map": "/shlomo-portfolio/static/js/787.c09330cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3d7bf30.css",
-    "static/js/main.54f4aa1a.js"
+    "static/js/main.eeab18c8.js"
   ]
 }
