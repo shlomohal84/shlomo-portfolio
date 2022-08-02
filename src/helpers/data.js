@@ -5,13 +5,16 @@ const tools = {
   frontend: {
     react: "ReactJS",
     vanillaJs: "Vanilla JS",
+    ejs: "EJS",
   },
   backend: {
     node: "NodeJS",
   },
   db: {
     mongo: "MongoDB",
-    localStorage: "localStorage",
+    none: {
+      localStorage: "None (Local Storage)",
+    },
   },
   styling: {
     bootstrap: "Bootstrap",
@@ -30,9 +33,9 @@ export const data = [
     siteUrl: "https://shlomo-yelp-camp.herokuapp.com/",
     ghUrl: "https://github.com/shlomohal84/yelpCamp",
     tools: {
-      frontend: tools.frontend.react,
+      frontend: tools.frontend.ejs,
       backend: tools.backend.node,
-      db: tools.db.localStorage,
+      db: tools.db.mongo,
       styling: tools.styling.bootstrap,
     },
   },
@@ -46,8 +49,9 @@ export const data = [
     ghUrl: "https://github.com/shlomohal84/React-Color-Picker",
     tools: {
       frontend: tools.frontend.react,
-      backend: null,
-      db: tools.db.mongo,
+      // backend: "none",
+      // db: tools.db.none.localStorage,
+      styling: tools.styling.mui,
     },
   },
   {
@@ -63,5 +67,19 @@ export const data = [
       db: null,
       styling: tools.styling.css,
     },
+  },
+  {
+    id: 3,
+    title: "YelpCamp - ReactJS Version",
+    description: "Under Development",
+    img: yelpCampEjsImg,
+    // siteUrl: "https://shlomo-yelp-camp.herokuapp.com/",
+    // ghUrl: "https://github.com/shlomohal84/yelpCamp",
+    // tools: {
+    //   frontend: tools.frontend.react,
+    //   backend: tools.backend.node,
+    //   db: tools.db.localStorage,
+    //   styling: tools.styling.bootstrap,
+    // },
   },
 ];

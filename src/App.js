@@ -7,6 +7,7 @@ import globalTheme from "./helpers/theme.js";
 import { data } from "./helpers/data";
 
 function App() {
+  document.head.title = "Shlomo Halperin's Portfolio";
   return (
     <>
       <CssBaseline />

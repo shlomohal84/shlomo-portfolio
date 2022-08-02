@@ -19,8 +19,9 @@ export default function Homepage({ data }) {
         <Grid
           container
           direction="row"
-          justifyContent="space-around"
+          justifyContent="space-evenly"
           alignItems="baseline"
+          // sx={{ flexWrap: ["wrap", "wrap", "wrap", "nowrap"] }}
         >
           {data.map(item => {
             return <ItemCard key={item.id} {...item} />;
