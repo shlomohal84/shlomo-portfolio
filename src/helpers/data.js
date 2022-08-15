@@ -1,6 +1,7 @@
 import yelpCampEjsImg from "../assets/imgs/thumbnails/yelpCampThumb.jpg";
 import reactColorPickerImg from "../assets/imgs/thumbnails/react_color_picker_thumb.jpg";
 import sudokuImg from "../assets/imgs/thumbnails/sudoku_thumb.jpg";
+import yelpCampReact from "../assets/imgs/thumbnails/yelpcamp_react.jpg";
 const tools = {
   frontend: {
     react: "ReactJS",
@@ -40,6 +41,20 @@ export const data = [
     },
   },
   {
+    id: 3,
+    title: "YelpCamp - ReactJS Version",
+    description: "ReactJS yelpCamp's version",
+    img: yelpCampReact,
+    siteUrl: "https://yelpcamp-react-shlomo.herokuapp.com/",
+    ghUrl: "https://github.com/shlomohal84/yelpcamp-react",
+    tools: {
+      frontend: tools.frontend.react,
+      backend: tools.backend.node,
+      db: tools.db.mongo,
+      styling: tools.styling.bootstrap,
+    },
+  },
+  {
     id: 1,
     title: "React Color Picker",
     description: `Pick and copy color codes (hex/rgb/rgba formats) from existing palettes
@@ -57,7 +72,7 @@ export const data = [
   {
     id: 2,
     title: "Sudoku Validator Beta",
-    description: `Static Vanilla JS HTML page with fake authentication featuring a sudoku board with 3 difficulty levels`,
+    description: `Static Vanilla JS HTML page with fake authentication featuring a sudoku board with 3 difficulty levels.\nCurrently only working as a premade board with basic full board validation`,
     img: sudokuImg,
     siteUrl: "https://shlomohal84.github.io/Sudoku-1st-edition",
     ghUrl: "https://github.com/shlomohal84/Sudoku-1st-edition",
@@ -67,19 +82,5 @@ export const data = [
       db: null,
       styling: tools.styling.css,
     },
-  },
-  {
-    id: 3,
-    title: "YelpCamp - ReactJS Version",
-    description: "Under Development",
-    img: yelpCampEjsImg,
-    // siteUrl: "https://shlomo-yelp-camp.herokuapp.com/",
-    // ghUrl: "https://github.com/shlomohal84/yelpCamp",
-    // tools: {
-    //   frontend: tools.frontend.react,
-    //   backend: tools.backend.node,
-    //   db: tools.db.localStorage,
-    //   styling: tools.styling.bootstrap,
-    // },
   },
 ];

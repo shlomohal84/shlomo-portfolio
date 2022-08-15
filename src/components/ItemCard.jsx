@@ -53,7 +53,11 @@ export default function ItemCard({
         <CardMedia component="img" height="194" image={img} alt="card-img" />
       </a>
       <CardContent sx={{ height: "90px" }}>
-        <Typography variant="body2" color="text.secondary">
+        <Typography
+          variant="body2"
+          color="text.secondary"
+          sx={{ whiteSpace: "pre-line" }}
+        >
           {description}
         </Typography>
       </CardContent>
